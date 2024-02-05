@@ -1,0 +1,23 @@
+h1{
+    color: aqua;
+    background-color: black;
+}
+div{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: black;
+}
+button{
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 100px;
+    height: 40px;
+    font-weight: 900;
+}
+h3{
+    color: aquamarine;
+}

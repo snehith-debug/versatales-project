@@ -1,0 +1,15 @@
+body{
+    color:#398db1;
+    background-color: #141D2C;
+    align-content: center;
+    align-items: center;
+}
+div{
+    margin-left: 250px;
+    margin-right: 250px;
+    align-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}

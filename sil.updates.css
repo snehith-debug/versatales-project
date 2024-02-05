@@ -1,0 +1,22 @@
+#head {
+    text-align: center;
+}
+#border{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#content {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    justify-content: space-evenly;
+}
+body{
+    background-color: #141D2C;
+    color: white;
+}

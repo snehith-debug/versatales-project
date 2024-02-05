@@ -1,0 +1,11 @@
+h1,h2{
+    color: aqua;
+}
+div{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 900;
+}
+body{
+    background-color: #141D2C;
+}

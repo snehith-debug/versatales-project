@@ -1,0 +1,133 @@
+#bar {
+    height: 65px;
+    width: 85%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #141D2C;
+    float: inline-end;
+}
+#kllogo {
+    height: 76px;
+    width: 21%;
+    display: flex;
+    /* border: 2px solid white; */
+}
+#saclogo {
+    height: 76px;
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* border: 2px solid white; */
+}
+
+#head {
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    /* border: 2px solid white; */
+}
+#login {
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+}
+#register {
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+#registerinner:hover {
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logoinner {
+    width: 100px;
+    height: 35px;
+    background-color: greenyellow;
+    margin-left: 80px;
+    padding : 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    align-items: baseline;
+}
+#registerinner {
+    width: 100px;
+    height: 35px;
+    margin-left: 40px;
+    padding : 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    align-items: baseline;
+}
+h1{
+    color: #398db1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+h2{
+    color: red;
+}
+#sidebar {
+    height: 800px;
+    width: 15%;
+    background-color: #141D2C;
+    display: inline-block;
+    position: fixed;
+}
+#logo{
+width: 12%;
+height: 150px;
+display: flex;
+}
+#sb {
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    /* transition-duration: 1s; */
+}
+#sb:hover {
+    background-color: #398db1;
+    border: 1px solid #398db1;
+    border-radius: 30px;
+    box-shadow: 30px #398db1;
+}
+#displayrow{
+    height: 400px;
+    width: 84%;
+    display: inline-flex;
+    position: static;
+    /* border: 5px solid red; */
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#displaydiv{
+    height: 400px;
+    width: 600px;
+    
+    display: flex;
+    border-radius: 20px;
+}
+#displaydiv img{
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+}
+@media (max-width:900px){
+    #sidebar{
+        width: 100%;
+    }
+}
